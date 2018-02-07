@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 14
+    buildToolsVersion "27.0.3"
+
+    defaultConfig {
+        applicationId "com.androidemu.nes"
+        minSdkVersion 3
+        targetSdkVersion 3
+    }
+
+    sourceSets.main {
+        jni.srcDirs = []
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+}
