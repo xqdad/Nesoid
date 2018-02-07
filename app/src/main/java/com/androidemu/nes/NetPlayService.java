@@ -38,8 +38,7 @@ public class NetPlayService {
 	private static final short CMD_SAVED_STATE = 5;
 
 	private static final String BT_SERVICE_NAME = "Nesoid";
-	private static final UUID BT_SERVICE_UUID = UUID.fromString(
-			"8f996e39-374d-466c-bd0c-e0ced64b4e54");
+	private static final UUID BT_SERVICE_UUID = UUID.fromString("8f996e39-374d-466c-bd0c-e0ced64b4e54");
 
 	private static final int MAX_SAVED_STATE_SIZE = 2 * 1024 * 1024;
 
